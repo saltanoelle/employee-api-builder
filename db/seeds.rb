@@ -8,12 +8,12 @@
     )
 end
 
-# 200.times do
-#   Address.create(
-#     address: Faker::Address.street_address,
-#     city: Faker::Address.city,
-#     state: Faker::Address.state,
-#     zip: Faker::Address.zip_code,
-#     employee_id: rand(1..100)
-#     )
-# end
+200.times do
+  Address.create(
+    address: Faker::Address.street_address,
+    city: Faker::Address.city,
+    state: Faker::Address.state,
+    zip: Faker::Address.zip_code,
+    employee_id: rand(1..100)
+    )
+end
